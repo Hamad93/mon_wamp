@@ -1,0 +1,12 @@
+admin_homepage:
+    path:     /
+    defaults: { _controller: AdminBundle:Default:index }
+fb_timbaldefashion:
+    resource: "@FBTimbaldefashionBundle/Controller/"
+    type:     annotation
+    prefix:   /TBF
+
+hd_beauty:
+    resource: "@HDBeautyBundle/Controller/"
+    type:     annotation
+    prefix:   /HD-Beauty
